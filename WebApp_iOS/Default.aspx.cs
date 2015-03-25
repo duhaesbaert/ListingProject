@@ -14,14 +14,14 @@ namespace WebApp_iOS
 
         }
 
-        protected void btLogin_Click(object sender, EventArgs e)
-        {
-
-        }
-
         protected void btRegister_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/Register.aspx");
+        }
+
+        protected void btLogin_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/WebForms/GeneralDetails.aspx");
         }
     }
 }

@@ -7,10 +7,19 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApp_iOS {
+namespace WebApp_iOS.WebForms {
     
     
-    public partial class Register {
+    public partial class Mobile {
+        
+        /// <summary>
+        /// head control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder head;
         
         /// <summary>
         /// form1 control.
@@ -22,66 +31,57 @@ namespace WebApp_iOS {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// txtNome control.
+        /// cphHeader control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNome;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder cphHeader;
         
         /// <summary>
-        /// txtUsuario control.
+        /// cphContent control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtUsuario;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder cphContent;
         
         /// <summary>
-        /// txtEmail control.
+        /// imgBtMenu_1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmail;
+        protected global::System.Web.UI.WebControls.ImageButton imgBtMenu_1;
         
         /// <summary>
-        /// txtPassword control.
+        /// imgBtMenu_2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPassword;
+        protected global::System.Web.UI.WebControls.ImageButton imgBtMenu_2;
         
         /// <summary>
-        /// txtRepeatPassword control.
+        /// imgBtMenu_3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtRepeatPassword;
+        protected global::System.Web.UI.WebControls.ImageButton imgBtMenu_3;
         
         /// <summary>
-        /// btRegister control.
+        /// cphFooter control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btRegister;
-        
-        /// <summary>
-        /// btCancel control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btCancel;
+        protected global::System.Web.UI.WebControls.ContentPlaceHolder cphFooter;
     }
 }

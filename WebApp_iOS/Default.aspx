@@ -21,28 +21,22 @@
                 </div>
                 <br />
                 <br />
-                <div style="margin-bottom:3px">
-<%--                    <div style="display:inline-block" class="labelStyle">
-                        <label>E-mail</label>
-                    </div>--%>
+                <div style="margin-bottom:5px">
                     <div style="display:inline-block">
-                        <asp:TextBox ID="txtEmail" runat="server" CssClass="textBoxStyle" AutoCompleteType="Disabled" placeholder="Usuario ou E-mail"></asp:TextBox>
+                        <asp:TextBox ID="txtEmail" runat="server" CssClass="textBoxStyle" AutoCompleteType="Disabled" placeholder="Usuario ou E-mail" TabIndex="1"></asp:TextBox>
                     </div>
                 </div>
                 <div>
-<%--                    <div style="display:inline-block" class="labelStyle">
-                        <label>Senha</label>
-                    </div>--%>
                     <div style="display:inline-block">
-                        <asp:TextBox ID="txtPassword" runat="server" CssClass="textBoxStyle" AutoCompleteType="Disabled" TextMode="Password" placeholder="Senha"></asp:TextBox>
+                        <asp:TextBox ID="txtPassword" runat="server" CssClass="textBoxStyle" AutoCompleteType="Disabled" TextMode="Password" placeholder="Senha" TabIndex="2"></asp:TextBox>
                     </div>
                 </div>
                 <br />
                 <div style="margin-bottom:5px;">
-                    <asp:Button ID="btLogin" runat="server" Text="Entrar" OnClick="btLogin_Click" CssClass="enjoy-css"/>
+                    <asp:Button ID="btLogin" runat="server" Text="Entrar" CssClass="enjoy-css" TabIndex="3" OnClick="btLogin_Click"/>
                 </div>
                 <div>
-                    <asp:Button ID="btRegister" runat="server" Text="Registre-se" CssClass="enjoy-css" OnClick="btRegister_Click" />
+                    <asp:Button ID="btRegister" runat="server" Text="Registre-se" CssClass="enjoy-css" OnClick="btRegister_Click" TabIndex="4" />
                 </div>
             </div>
         </div>

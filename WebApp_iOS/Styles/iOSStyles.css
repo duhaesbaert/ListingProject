@@ -31,6 +31,7 @@ body {
     background-color: #FFF;
     position: relative;
     height:60px !important;
+    display:block;
 }
     #headerDiv .wrap {
         height: 200px;
@@ -39,6 +40,7 @@ body {
 #contentDiv {
     width: 100%;
     position: absolute;
+    display:block;
 }
     #contentDiv .wrap {
         /*height: 1056px;*/
@@ -50,6 +52,7 @@ body {
     position: fixed;
     /*margin-top: 500px;*/
     margin-bottom: 0px;
+    display:block;
 }
     #footerDiv .wrap {
         height: 80px;
@@ -63,16 +66,37 @@ body {
     margin:0px auto;
     display:block;
     position:relative;
+    display:block;
 }
 
 .textBoxStyle {
-    padding-top:6px;
-    padding-bottom:6px;
-    padding-left:8px;
-    padding-right:8px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:12px;
+    padding-right:12px;
     /*width:70%;*/
     border-radius:2px;
     width:250px;
+}
+
+.textBoxStyleForListPrd {
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:12px;
+    padding-right:12px;
+    /*width:70%;*/
+    border-radius:2px;
+    width:200px;
+}
+
+.textBoxStyleForListQtd {
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:12px;
+    padding-right:12px;
+    /*width:70%;*/
+    border-radius:2px;
+    width:50px;
 }
 
 .labelStyle {
@@ -93,6 +117,13 @@ body {
     margin-bottom:2px;
 }
 
+.DefaultPageButtonStyleRemoveList {
+    border-radius:2px;
+    padding:10px;
+    width:20px;
+    margin-bottom:2px;
+}
+
 .typography {
     background: #fff;
     color: #000;
@@ -108,19 +139,58 @@ body {
     border-color:#000;
     padding:20px;
     /*background-color:#3266B2;*/
-background: #93cede; /* Old browsers */
-background: -moz-linear-gradient(top,  #93cede 0%, #75bdd1 41%, #49a5bf 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#93cede), color-stop(41%,#75bdd1), color-stop(100%,#49a5bf)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf',GradientType=0 ); /* IE6-9 */
+    background: #93cede; /* Old browsers */
+    background: -moz-linear-gradient(top,  #93cede 0%, #75bdd1 41%, #49a5bf 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#93cede), color-stop(41%,#75bdd1), color-stop(100%,#49a5bf)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf',GradientType=0 ); /* IE6-9 */
 
-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
-
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
 }
 
+.siteBox {
+     border-width:0px;
+    /*border-radius:2px;*/
+    border-radius: 2px 2px 0px 0px;
+    border-style:solid;
+    border-color:#000;
+    padding:20px;
+    /*background-color:#3266B2;*/
+    background: #93cede; /* Old browsers */
+    background: -moz-linear-gradient(top,  #93cede 0%, #75bdd1 41%, #49a5bf 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#93cede), color-stop(41%,#75bdd1), color-stop(100%,#49a5bf)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #93cede 0%,#75bdd1 41%,#49a5bf 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf',GradientType=0 ); /* IE6-9 */
+    width:100%;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+}
+
+.menuBox {
+    border-radius:0px;
+    border-radius: 0px 0px 2px 2px;
+    border-style:solid;
+    border-color:#000;
+    padding-top:7px;
+    padding-bottom:4px;
+    padding-left:20px;
+    padding-right:20px;
+    background: #3d3d3d; /* Old browsers */
+    background: -moz-linear-gradient(top,  #3d3d3d 0%, #131313 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#3d3d3d), color-stop(100%,#131313)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #3d3d3d 0%,#131313 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #3d3d3d 0%,#131313 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #3d3d3d 0%,#131313 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #3d3d3d 0%,#131313 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d3d3d', endColorstr='#131313',GradientType=0 ); /* IE6-9 */    
+    width:100%;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+}
 
 /*background: #3266b2;
 background: -moz-linear-gradient(top,  #3266b2 0%, #559cd6 100%, #7db9e8 100%);

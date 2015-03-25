@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Mobile.master.cs" Inherits="WebApp_iOS.WebForms.Mobile" %>
+
+<!DOCTYPE html>
+<link href="../Styles/iOSStyles.css" rel="stylesheet" />
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="headerDiv">
+            <div class="wrap">
+                <asp:ContentPlaceHolder ID="cphHeader" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <div id="contentDiv">
+            <div class="wrap">
+                <asp:ContentPlaceHolder ID="cphContent" runat="server">
+                            
+                </asp:ContentPlaceHolder>
+                <div class="menuBox">
+                    <div style="display:inline-block;margin-right:80px;">
+                        <asp:ImageButton ID="imgBtMenu_1" runat="server" ImageUrl="~/Images/ic_home_white_36dp.png" />
+                    </div>
+                    <div style="display:inline-block;margin-right:80px;">
+                        <asp:ImageButton ID="imgBtMenu_2" runat="server" ImageUrl="~/Images/ic_receipt_white_36dp.png" />
+                    </div>
+                    <div style="display:inline-block;">
+                        <asp:ImageButton ID="imgBtMenu_3" runat="server" ImageUrl="~/Images/ic_extension_white_36dp.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footerDiv">
+            <div class="wrap">
+                <asp:ContentPlaceHolder ID="cphFooter" runat="server">
+
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -58,9 +58,17 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
-    <Content Include="Images\tag79 %281%29.png" />
+    <Content Include="Images\ic_delete_white_36dp.png" />
+    <Content Include="Images\ic_dns_black_36dp.png" />
+    <Content Include="Images\ic_dns_white_36dp.png" />
+    <Content Include="Images\ic_extension_black_36dp.png" />
+    <Content Include="Images\ic_extension_white_36dp.png" />
+    <Content Include="Images\ic_highlight_remove_white_36dp.png" />
+    <Content Include="Images\ic_home_black_36dp.png" />
+    <Content Include="Images\ic_home_white_36dp.png" />
+    <Content Include="Images\ic_receipt_black_36dp.png" />
+    <Content Include="Images\ic_receipt_white_36dp.png" />
     <Content Include="Images\tag79 %282%29.png" />
-    <Content Include="Images\tag79.png" />
     <Content Include="Register.aspx" />
     <Content Include="Styles\iOSStyles.css" />
     <Content Include="Styles\StylesBases.css" />
@@ -82,6 +90,20 @@
     <Compile Include="Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="WebForms\GeneralDetails.aspx.cs">
+      <DependentUpon>GeneralDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\GeneralDetails.aspx.designer.cs">
+      <DependentUpon>GeneralDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Mobile.Master.cs">
+      <DependentUpon>Mobile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Mobile.Master.designer.cs">
+      <DependentUpon>Mobile.Master</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Web.Debug.config">
@@ -90,10 +112,10 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="WebForms\GeneralDetails.aspx" />
+    <Content Include="WebForms\Mobile.Master" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="WebForms\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

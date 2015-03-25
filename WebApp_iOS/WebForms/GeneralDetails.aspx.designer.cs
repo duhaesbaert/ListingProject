@@ -7,81 +7,99 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WebApp_iOS {
+namespace WebApp_iOS.WebForms {
     
     
-    public partial class Register {
+    public partial class GeneralDetails {
         
         /// <summary>
-        /// form1 control.
+        /// pnlExistentList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.Panel pnlExistentList;
         
         /// <summary>
-        /// txtNome control.
+        /// txtPrd_1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtNome;
+        protected global::System.Web.UI.WebControls.TextBox txtPrd_1;
         
         /// <summary>
-        /// txtUsuario control.
+        /// txtQtd_1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtUsuario;
+        protected global::System.Web.UI.WebControls.TextBox txtQtd_1;
         
         /// <summary>
-        /// txtEmail control.
+        /// imgBt_1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtEmail;
+        protected global::System.Web.UI.WebControls.ImageButton imgBt_1;
         
         /// <summary>
-        /// txtPassword control.
+        /// txtPrd_2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtPassword;
+        protected global::System.Web.UI.WebControls.TextBox txtPrd_2;
         
         /// <summary>
-        /// txtRepeatPassword control.
+        /// txtQtd_2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtRepeatPassword;
+        protected global::System.Web.UI.WebControls.TextBox txtQtd_2;
         
         /// <summary>
-        /// btRegister control.
+        /// imgBt_2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btRegister;
+        protected global::System.Web.UI.WebControls.ImageButton imgBt_2;
         
         /// <summary>
-        /// btCancel control.
+        /// txtPrd_3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btCancel;
+        protected global::System.Web.UI.WebControls.TextBox txtPrd_3;
+        
+        /// <summary>
+        /// txtQtd_3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtQtd_3;
+        
+        /// <summary>
+        /// imgBt_3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ImageButton imgBt_3;
     }
 }

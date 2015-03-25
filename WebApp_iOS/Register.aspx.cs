@@ -13,5 +13,15 @@ namespace WebApp_iOS
         {
 
         }
+
+        protected void btCancel_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Default.aspx");
+        }
+
+        protected void btRegister_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
