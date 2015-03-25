@@ -4,7 +4,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="cphHeader" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="cphContent" runat="server">
-    <div class="siteBox">
         <br />
         <div>
             <img src="../Images/tag79 (2).png" />
@@ -49,7 +48,6 @@
                     <%--<asp:Button ID="btDelete_2" runat="server" CssClass="DefaultPageButtonStyleRemoveList" Text="X" />--%>
                     <asp:ImageButton ID="imgBt_3" runat="server" ImageUrl="~/Images/ic_highlight_remove_white_36dp.png" />
                 </div>
-            </div>
         </asp:Panel>
     </div>
 </asp:Content>

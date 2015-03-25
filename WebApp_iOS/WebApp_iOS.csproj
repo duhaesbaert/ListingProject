@@ -73,6 +73,8 @@
     <Content Include="Styles\iOSStyles.css" />
     <Content Include="Styles\StylesBases.css" />
     <Content Include="Web.config" />
+    <Content Include="WebForms\ProductList.aspx" />
+    <Content Include="WebForms\Settings.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Default.aspx.cs">
@@ -103,6 +105,20 @@
     </Compile>
     <Compile Include="WebForms\Mobile.Master.designer.cs">
       <DependentUpon>Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\ProductList.aspx.cs">
+      <DependentUpon>ProductList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\ProductList.aspx.designer.cs">
+      <DependentUpon>ProductList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForms\Settings.aspx.cs">
+      <DependentUpon>Settings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForms\Settings.aspx.designer.cs">
+      <DependentUpon>Settings.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

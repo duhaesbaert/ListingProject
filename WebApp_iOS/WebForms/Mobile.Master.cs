@@ -13,5 +13,20 @@ namespace WebApp_iOS.WebForms
         {
 
         }
+
+        protected void imgBtMenu_3_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("~/Default.aspx");
+        }
+
+        protected void imgBtMenu_1_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("~/WebForms/GeneralDetails");
+        }
+
+        protected void imgBtMenu_2_Click(object sender, ImageClickEventArgs e)
+        {
+            Response.Redirect("~/WebForms/ProductList;.aspx");
+        }
     }
 }
